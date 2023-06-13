@@ -10,6 +10,9 @@ public class Main {
         while ((texto2 = fr.read()) != -1) {
             System.out.print((char)texto2 + "_" + texto2 + ", ");
         }
+
+        fr.close();
+        
     }
 }
 
